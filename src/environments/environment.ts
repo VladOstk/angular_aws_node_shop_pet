@@ -8,9 +8,9 @@ export const environment: Config = {
   production: false,
   apiEndpoints: {
     product:
-      'https://vu33zb3hje.execute-api.eu-west-1.amazonaws.com/dev/products',
+      'https://p9b7weogqi.execute-api.eu-west-1.amazonaws.com/dev/products',
     order: 'https://vu33zb3hje.execute-api.eu-west-1.amazonaws.com/dev',
-    import: 'https://tvfv9d9sx4.execute-api.eu-west-1.amazonaws.com/dev',
+    import: 'https://nlncth237b.execute-api.eu-west-1.amazonaws.com',
     bff: 'https://vu33zb3hje.execute-api.eu-west-1.amazonaws.com/dev',
     cart: 'https://vu33zb3hje.execute-api.eu-west-1.amazonaws.com/dev',
   },
