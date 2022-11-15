@@ -37,9 +37,9 @@ export class ManageProductsService extends ApiService {
       params: {
         name: fileName,
       },
-      // headers: {
-      //   Authorization: 'Basic ' + btoa(authorization_token ?? ''),
-      // },
+      headers: {
+        Authorization: 'Basic ' + btoa(authorization_token ?? ''),
+      },
       responseType: 'text',
     });
   }
